@@ -1,7 +1,7 @@
 
 # ☕ BrewByte Café
 
-Welcome to **BrewByte Café** — a fully responsive, animated coffee ordering experience built using **HTML, CSS, and JavaScript**. This project is a creative simulation of a real café ordering system, complete with background music, animated coffee cups, responsive layout, and a fun interactive design.
+Welcome to **BrewByte Café** — a Responsive Design (Width-Focused), animated coffee ordering experience built using **HTML, CSS, and JavaScript**. This project is a creative simulation of a real café ordering system, complete with background music, animated coffee cups, responsive layout, and a fun interactive design.
 
 ---
 
@@ -16,8 +16,7 @@ Welcome to **BrewByte Café** — a fully responsive, animated coffee ordering e
 
 - 📱 **Responsive Design** – Scales beautifully from **320px to 1440px** width.
 
-- 💻 **Optimized for Devices** – Target height set at **600px**, with additional media queries for taller screens. The layout is stable
-     across most devices, though minor bugs may still exist. 
+- 💻 **Optimized for Devices** –  While the layout was optimized for a target height of **600px**, some height-specific scenarios may show slight visual quirks — something learned and noted during post-build testing.
 
 - ✨ **Custom Animations** – Hover effects, transitions, and more.
 
