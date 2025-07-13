@@ -1,0 +1,1578 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+ @media all and (min-width:320px) and (max-width:1440px) and (height>600px){
+ 
+   html,body {
+    overflow-x: hidden;
+  } 
+  html {
+    scroll-behavior: smooth;
+} 
+}  
+ 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.black_container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.795);
+    position: absolute;
+    z-index: 2;
+    opacity: 0.1;
+
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container .content {
+    font-family: "Lexend", sans-serif;
+    text-wrap: wrap;
+    display: flex;
+    row-gap: 2.5rem;
+    flex-direction: column;
+    position: relative;
+    top: 2rem;
+    z-index: 3;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+    line-height: 24px;
+
+}
+
+.container .content :nth-child(3) {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 24px;
+}
+
+
+.container .content .lines {
+
+    text-align: center;
+}
+
+.container .buttons {
+    display: flex;
+    column-gap: 1.5rem;
+    position: relative;
+    top: 2rem;
+
+}
+
+.container .buttons .one {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 175;
+    font-style: normal;
+    line-height: 24px;
+    height: 4vh;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border: 0.2rem solid white;
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+    text-align: center;
+    padding: 0.7rem;
+    z-index: 3;
+    transition: all 0.15s ease-out;
+}
+
+
+.container .buttons :nth-child(1) {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container .buttons :nth-child(2) {
+    color: rgb(243, 240, 240);
+    text-decoration: none;
+}
+
+.container .buttons .one:hover {
+    transform: scale(1.09);
+
+}
+
+.container .scr_d {
+    display: flex;
+    column-gap: 0.3rem;
+    position: relative;
+    z-index: 3;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 24px;
+    top: 6rem;
+    animation: U_d 0.5s ease infinite alternate-reverse;
+
+}
+
+@keyframes U_d {
+
+    to {
+
+        transform: translateY(-35%);
+
+    }
+}
+
+#img_1 path {
+    fill: white;
+}
+
+main .white_box {
+    margin: 1vh 0vw;
+    background-color: rgba(255, 255, 255, 0.516);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5vh;
+    position: relative;
+
+
+
+}
+
+main .white_box .layer {
+    background-image: url(Assets/Photos/Background_white.avif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+main .white_box .im {
+    height: 11rem;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+}
+
+main .white_box :nth-child(2) {
+    align-self: center;
+}
+
+main .white_box :nth-child(3) {
+    align-self: flex-end;
+
+}
+
+
+@keyframes move {
+
+
+    from {
+        transform: translateX(0vw) rotateZ(0deg);
+    }
+
+    to {
+        transform: translateX(55vw) rotateZ(360deg);
+    }
+}
+
+
+@media all and (min-width:600px) and (max-width:1000px) {
+    main .white_box .im {
+        height: 8rem;
+
+    }
+}
+
+main .white_box .text_1 {
+    width: 30vw;
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    left: 20%;
+    color: rgba(255, 0, 0, 0.694);
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 3rem;
+    font-size: 2.9rem;
+    text-wrap: wrap;
+
+
+}
+
+main .white_box .text .text_2 {
+
+    position: absolute;
+    width: 55vw;
+    top: 50%;
+    left: 22%;
+    color: rgba(62, 51, 182, 0.694);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    text-wrap: wrap;
+    line-height: 2.8rem;
+
+}
+
+@media all and (min-width:320px) and (max-width:383px) {
+    .container .content {
+        row-gap: 1.3rem;
+
+    }
+
+    .container .content .lines {
+        font-size: 1.9rem;
+
+    }
+
+    .container .content .clas {
+        font-size: 0.9rem;
+        width: 85vw;
+        text-wrap: wrap;
+        line-height: 1.7rem;
+        text-align: center;
+    }
+
+    .container .buttons .one {
+
+        height: 1.5vh;
+        font-size: 0.9rem;
+        padding-bottom: 1.3rem;
+
+    }
+}
+
+@media all and (min-width:383px) and (max-width:456px) {
+    .container .content {
+        row-gap: 1.3rem;
+
+    }
+
+    .container .content .lines {
+        font-size: 2.1rem;
+
+    }
+
+    .container .content .clas {
+        font-size: 1.1rem;
+        width: 85vw;
+        text-wrap: wrap;
+        line-height: 1.7rem;
+        text-align: center;
+    }
+
+    .container .buttons .one {
+
+        height: 3vh;
+        font-size: 1rem;
+    }
+}
+
+
+
+@media all and (min-width:456px) and (max-width:680px) {
+    .container .content .lines {
+        font-size: 2.5rem;
+
+    }
+
+    .container .content .clas {
+        font-size: 1.4rem;
+        width: 85vw;
+        text-wrap: wrap;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .container .buttons .one {
+
+        height: 3.5vh;
+
+    }
+}
+
+
+@media all and (min-width:320px) and (max-width:418px) {
+    main .white_box .text .text_1 {
+        width: 70vw;
+        left: 28%;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+
+    }
+
+    main .white_box .text .text_2 {
+        width: 70vw;
+        left: 20%;
+        top: 47%;
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    main .white_box .im {
+        height: 5rem;
+
+    }
+}
+
+@media all and (min-width:418px) and (max-width:570px) {
+    main .white_box .text .text_1 {
+        width: 60vw;
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+
+    }
+
+    main .white_box .text .text_2 {
+        width: 70vw;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    main .white_box .im {
+        height: 5.5rem;
+
+    }
+
+}
+
+@media all and (min-width:570px) and (max-width:600px) {
+    main .white_box .text .text_1 {
+        width: 50vw;
+        font-size: 1.9rem;
+
+    }
+
+    main .white_box .text .text_2 {
+        width: 70vw;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    main .white_box .im {
+        height: 5.5rem;
+
+    }
+
+}
+
+@media all and (min-width:600px) and (max-width:741px) {
+    main .white_box .text .text_1 {
+        width: 50vw;
+        font-size: 2rem;
+
+    }
+
+    main .white_box .text .text_2 {
+        font-size: 1.2rem;
+        width: 60vw;
+
+
+    }
+}
+
+
+@media all and (min-width:741px) and (max-width:949px) {
+    main .white_box .text .text_1 {
+        width: 50vw;
+        font-size: 2.3rem;
+
+    }
+
+    main .white_box .text .text_2 {
+        font-size: 1.4rem;
+
+    }
+
+
+}
+
+@media all and (min-width:949px) and (max-width:1120px) {
+    main .white_box .text .text_1 {
+        width: 40vw;
+        font-size: 2.45rem;
+
+    }
+
+    main .white_box .text .text_2 {
+        font-size: 1.4rem;
+
+    }
+
+}
+
+@keyframes U_d_2 {
+    from {
+
+        transform: translateY(0%);
+
+    }
+
+    to {
+        transform: translateY(-25%);
+    }
+}
+
+main .Card_contianer {
+
+    position: absolute;
+    left: 30vw;
+    bottom: 5vh;
+    border-radius: 2.1rem;
+    text-wrap: nowrap;
+    cursor: pointer;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 0 4px 8px rgb(102 95 95 / 80%);
+    transition: all 0.3s ease-out;
+
+}
+
+main .Card_contianer:hover {
+    transform: scale(1.075);
+    background-color: #eac4b3;
+
+}
+
+main .card_content {
+    display: flex;
+    padding: 1.7rem 1.5rem;
+    gap: 0.5rem;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #596378;
+    font-size: 6vh;
+
+
+
+}
+
+main .Card_contianer img {
+    width: 4rem;
+}
+
+@media all and (min-width:700px) and (max-width:1200px) {
+    main .Card_contianer {
+
+        position: absolute;
+        left: 26vw;
+        bottom: 3vh;
+
+    }
+
+    main .card_content {
+
+        padding: 1.5rem 1rem;
+        font-size: 4vh;
+
+    }
+
+    main .Card_contianer img {
+        width: 2.5rem;
+    }
+
+
+}
+
+@media all and (min-width:556px) and (max-width:700px) {
+
+
+    main .Card_contianer {
+        left: 25vw;
+        bottom: 3vh;
+        border-radius: 1.7rem;
+    }
+
+    main .card_content {
+        font-size: 2.7vh;
+        padding: 1.4rem 1.3rem;
+    }
+
+    main .Card_contianer img {
+        width: 2rem;
+    }
+}
+
+@media all and (min-width:437px) and (max-width:556px) {
+
+
+    main .Card_contianer {
+        left: 25vw;
+        bottom: 5vh;
+        border-radius: 1.9rem;
+
+
+    }
+
+    main .card_content {
+        font-size: 2.2vh;
+        padding: 1.5rem 1.3rem;
+
+    }
+    main .Card_contianer img {
+    width: 1.8rem;
+}
+}
+
+
+
+
+@media all and (min-width:320px) and (max-width:437px) {
+
+
+    main .Card_contianer {
+
+
+        position: absolute;
+        left: 20vw;
+        bottom: 5vh;
+
+    }
+
+    main .card_content {
+
+        padding: 1.5rem 1rem;
+        font-size: 2.4vh;
+    }
+
+    main .Card_contianer img {
+        width: 1.4rem;
+    }
+
+    main .Card_contianer {
+
+
+        border-radius: 1.8rem;
+    }
+
+}
+
+
+
+
+section {
+    height: 125vh;
+    width: 100%;
+    margin-top: 13vh;
+    background-image: url("Assets/Photos/Coffee_Background.jpeg");
+    background-size: 44.9%;
+    background-repeat: repeat;
+    background-position: center;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 70%);
+
+
+}
+
+section .heading {
+    max-width: 100%;
+    margin-bottom: 8vh;
+    text-wrap: nowrap;
+    padding: 0.3vh 1vw;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 375;
+    font-size: 14vh;    
+    color: #5a3c2e;
+    backdrop-filter: blur(1.5px);
+
+
+
+}
+
+section .heading::before {
+    content: "🍪";
+    font-size: 11vh;
+    padding: 3vh;
+}
+
+.Choice {
+    margin: 0 4.9vw;
+    border: 2px solid #5a3c2e;
+    border-radius: 1.6rem;
+    height: 12vh;
+    width: 33vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: rgba(255, 248, 220, 0.201);
+    backdrop-filter: blur(1.6px);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+
+
+}
+
+.Choice:hover {
+    transform: scale(1.09);
+    /* background-color: #eac4b3 ;
+     */
+    background-color: rgba(255, 248, 220, 0.801);
+}
+
+section label {
+
+    padding: 0 2vw;
+    display: inline-block;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 380;
+    font-size: 1.7rem;
+
+
+    color: #67463f;
+
+    text-wrap: nowrap;
+    cursor: pointer;
+
+
+
+}
+
+section select {
+    font-size: 0.9rem;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background-color: rgba(255, 228, 196, 0.144);
+
+    backdrop-filter: blur(1.5px);
+    cursor: pointer;
+
+
+
+    font-style: normal;
+
+
+}
+
+section .Order {
+    display: flex;
+    gap: 10vw;
+    margin-top: 10vh;
+}
+
+section .order_ex {
+    background: rgba(255, 248, 220, 0.648);
+
+    border: 2px solid #5a3c2e;
+    border-radius: 1.3rem;
+    height: 57vh;
+    width: 46vw;
+    margin-left: 6vw;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    ;
+    font-weight: 390;
+    font-style: normal;
+
+
+    font-size: 2.2rem;
+    padding-top: 8vh;
+    padding: 0 3vw;
+    line-height: 8vh;
+    text-wrap: wrap;
+    color: #A0522D;
+
+    backdrop-filter: blur(1.2px);
+
+
+}
+
+section .coffee_place {
+    height: 75vh;
+    width: 25vw;
+    position: relative;
+    top: -30vh;
+    border-radius: 1.3rem;
+    background: rgba(255, 248, 220, 0.352);
+    border: 2px solid #5a3c2e;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 390;
+    font-style: normal;
+    font-size: 2.2rem;
+    text-wrap: wrap;
+    color: #5f2b13;
+    backdrop-filter: blur(0.9px);
+    padding: 2vh 2vw;
+}
+
+
+
+
+
+#H,
+#Co {
+    height: 75vh;
+    width: 25vw;
+    object-fit: cover;
+    position: absolute;
+    top: 50vh;
+    visibility: hidden;
+    transition: all 0.3s ease-out;
+
+}
+
+#La {
+    height: 75vh;
+    width: 25vw;
+    object-fit: contain;
+    position: absolute;
+    top: 50vh;
+    visibility: hidden;
+    transition: all 0.3s ease-out;
+
+}
+
+#H:hover,
+#Co:hover,
+#La:hover {
+    transform: scale(1.05);
+}
+
+
+
+@keyframes Coffee_appear {
+    to {
+        top: 0vh;
+        visibility: visible;
+    }
+}
+
+.for_reset {
+    display: flex;
+    row-gap: 10vw;
+    align-items: center;
+}
+
+.reset {
+    display: inline-block;
+    height: 4.5vh;
+    padding: 0.4rem;
+    border: 2px solid #5a3c2e;
+    border-radius: 12px;
+    background-color: rgba(255, 248, 220, 0.201);
+    backdrop-filter: blur(1.6px);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 380;
+    font-size: 1rem;
+    text-align: center;
+
+
+    color: #472720;
+    cursor: pointer;
+    text-wrap: nowrap;
+    display: none;
+    transition: all 0.3s ease-out;
+
+}
+
+.reset:hover {
+
+    transform: scale(1.09);
+
+    background-color: rgba(255, 248, 220, 0.801);
+
+}
+
+@media all and (min-width:1020px) and (max-width:1200px) {
+    section .heading {
+        font-size: 11.8vh;
+    }
+
+    .Choice {
+        width: 37vw;
+    }
+
+    section label {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+@media all and (min-width:804px) and (max-width:900px) {
+    section .heading {
+        font-size: 8.9vh;
+    }
+
+    .Choice {
+        width: 50vw;
+    }
+
+    section label {
+        font-size: 1.2rem;
+    }
+
+    section .Order {
+        gap: 8vw;
+
+    }
+
+    section .coffee_place {
+        height: 58vh;
+        top: -11vh;
+        font-size: 2rem;
+        width: 27vw;
+
+
+    }
+
+    section .order_ex {
+
+
+        height: 57vh;
+        width: 46vw;
+        font-size: 1.8rem;
+        line-height: 8vh;
+        text-wrap: wrap;
+
+
+
+    }
+
+    #H,
+    #Co {
+        height: 60vh;
+    }
+
+    .reset {
+        height: 4.3;
+    }
+
+}
+
+
+
+@media all and (min-width:900px) and (max-width:1020px) {
+    section .heading {
+        font-size: 9.8vh;
+    }
+
+    .Choice {
+        width: 40vw;
+    }
+
+    section label {
+        font-size: 1.3rem;
+    }
+
+    #H,
+    #Co {
+        height: 67vh;
+    }
+
+    section .coffee_place {
+        height: 67vh;
+    }
+
+}
+
+@media all and (min-width:600px) and (max-width:804px) {
+    section {
+        height: 110vh;
+    }
+
+    section .heading {
+        font-size: 7vh;
+    }
+
+    section .heading::before {
+        font-size: 7.4vh;
+    }
+
+    .Choice {
+        width: 53vw;
+    }
+
+    section label {
+        font-size: 1.2rem;
+    }
+
+    section .Order {
+        gap: 7vw;
+    }
+
+    section .coffee_place {
+        height: 55vh;
+        top: -8vh;
+        font-size: 1.7rem;
+        width: 30vw;
+
+    }
+
+    section .order_ex {
+        height: 57vh;
+        width: 42vw;
+        font-size: 1.5rem;
+        line-height: 6vh;
+        padding-top: 2vh;
+    }
+
+    #H,
+    #Co {
+        /* height: 65vh; */
+        height: 55vh;
+        width: 30vw;
+    }
+
+    .reset {
+        height: 4.3vh;
+    }
+}
+
+@media all and (min-width:340px) and (max-width:380px) {
+
+    section {
+        height: 90vh;
+        width: 100%;
+        margin-top: 10vh;
+        background-size: 70%;
+
+    }
+
+
+    section .heading {
+        font-size: 3.9vh;
+        margin-bottom: 5vh;
+    }
+
+    section .heading::before {
+        font-size: 3.8vh;
+        padding: 1vh;
+    }
+
+    .Choice {
+
+        border-radius: 1rem;
+        height: 6vh;
+        width: 65vw;
+    }
+
+    section label {
+        font-size: 0.87rem;
+    }
+
+    section select {
+        font-size: 0.5rem;
+
+    }
+
+
+    section .Order {
+        gap: 0.5vw;
+    }
+
+    section .coffee_place {
+        height: 45vh;
+        top: -4vh;
+        font-size: 1rem;
+        width: 37vw;
+        right: -3vw;
+
+    }
+
+    section .order_ex {
+        height: 50vh;
+        width: 43vw;
+        font-size: 1rem;
+        line-height: 4vh;
+        padding-top: 1vh;
+        margin-left: 2vw;
+    }
+
+    #H,
+    #Co {
+        /* height: 45vh;
+        width: 35vw; */
+        height: 37vh;
+        width: 38vw;
+    }
+
+    .reset {
+        height: 2vh;
+        font-size: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+}
+
+@media all and (min-width:320px) and (max-width:340px) {
+
+ 
+
+    section {
+        height: 92vh;
+        width: 100%;
+        margin-top: 10vh;
+        background-size: 70%;
+
+    }
+
+
+    section .heading {
+        font-size: 3.6vh;
+        margin-bottom: 5vh;
+    }
+
+    section .heading::before {
+        font-size: 3.8vh;
+        padding: 1vh;
+    }
+
+    .Choice {
+
+        border-radius: 1rem;
+        height: 6vh;
+        width: 65vw;
+    }
+
+    section label {
+        font-size: 0.87rem;
+    }
+
+    section select {
+        font-size: 0.5rem;
+
+    }
+
+
+    section .Order {
+        gap: 0.5vw;
+    }
+
+    section .coffee_place {
+        height: 37vh;
+        top: -4vh;
+        font-size: 1rem;
+        width: 37vw;
+        right: -3vw;
+
+    }
+
+    section .order_ex {
+        height: 50vh;
+        width: 43vw;
+        font-size: 0.9rem;
+        line-height: 4vh;
+        padding-top: 1vh;
+        margin-left: 2vw;
+    }
+
+    #H,
+    #Co {
+    
+        height: 37vh;
+        width: 38vw;
+    }
+
+    .reset {
+        height: 2vh;
+        font-size: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+}
+
+@media all and (min-width:380px) and (max-width:440px) {
+
+    section {
+        height: 90vh;
+        width: 100%;
+        margin-top: 10vh;
+        background-size: 70%;
+
+    }
+
+
+    section .heading {
+        font-size: 4.5vh;
+        margin-bottom: 5vh;
+    }
+
+    section .heading::before {
+        font-size: 3.8vh;
+        padding: 1vh;
+    }
+
+    .Choice {
+
+        border-radius: 1rem;
+        height: 6vh;
+        width: 60vw;
+    }
+
+    section label {
+        font-size: 0.87rem;
+    }
+
+    section select {
+        font-size: 0.5rem;
+
+    }
+
+
+    section .Order {
+        gap: 0.5vw;
+    }
+
+    section .coffee_place {
+        height: 45vh;
+        top: -4vh;
+        font-size: 1rem;
+        width: 37vw;
+        right: -3vw;
+
+    }
+
+    section .order_ex {
+        height: 50vh;
+        width: 43vw;
+        font-size: 1.2rem;
+        line-height: 5vh;
+        margin-left: 2vw;
+    }
+
+    #H,
+    #Co {
+        /* height: 45vh;
+        width: 35vw; */
+        height: 37vh;
+        width: 38vw;
+    }
+
+    .reset {
+        height: 2vh;
+        font-size: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+}
+
+@media all and (min-width:440px) and (max-width:500px) {
+
+    section {
+        height: 90vh;
+        width: 100%;
+        margin-top: 10vh;
+        background-size: 70%;
+
+    }
+
+
+    section .heading {
+        font-size: 4.9vh;
+        margin-bottom: 5vh;
+    }
+
+    section .heading::before {
+        font-size: 4vh;
+        padding: 1vh;
+    }
+
+    .Choice {
+
+        border-radius: 1rem;
+        height: 6vh;
+        width: 60vw;
+    }
+
+    section label {
+        font-size: 1rem;
+    }
+
+    section select {
+        font-size: 0.7rem;
+
+    }
+
+
+    section .Order {
+        gap: 0.5vw;
+    }
+
+    section .coffee_place {
+        height: 38vh;
+        top: -4vh;
+        font-size: 1rem;
+        width: 37vw;
+        right: -3vw;
+
+    }
+
+    section .order_ex {
+        height: 50vh;
+        width: 43vw;
+        font-size: 1.2rem;
+        line-height: 5vh;
+        margin-left: 2vw;
+    }
+
+    #H,
+    #Co {
+        /* height: 45vh;
+        width: 35vw; */
+        height: 37vh;
+        width: 38vw;
+    }
+
+    .reset {
+        height: 2vh;
+        font-size: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+}
+
+@media all and (min-width:500px) and (max-width:600px) {
+
+    section {
+        height: 95vh;
+        width: 100%;
+        margin-top: 10vh;
+        background-size: 80%;
+
+    }
+
+
+    section .heading {
+        font-size: 5.8vh;
+        margin-bottom: 5vh;
+    }
+
+    section .heading::before {
+        font-size: 4.6vh;
+        padding: 1vh;
+    }
+
+    .Choice {
+
+        border-radius: 1rem;
+        height: 6vh;
+        width: 58vw;
+    }
+
+    section label {
+        font-size: 1.3rem;
+    }
+
+    section select {
+        font-size: 0.7rem;
+
+    }
+
+
+    section .Order {
+        gap: 3vw;
+    }
+
+    section .coffee_place {
+        height: 48vh;
+        top: -4vh;
+        font-size: 1.3rem;
+        width: 33vw;
+        right: -3vw;
+
+    }
+
+    section .order_ex {
+        height: 58vh;
+        width: 43vw;
+        font-size: 1.5rem;
+        line-height: 6vh;
+        margin-left: 3vw;
+        padding-top: 3vh;
+    }
+
+    #H,
+    #Co {
+        height: 48vh;
+        width: 33vw;
+    }
+
+    .reset {
+        height: 2vh;
+        font-size: 0.8rem;
+        padding-bottom: 0.6rem;
+    }
+}
+
+.separator {
+    height: 1vh;
+    width: 100%;
+    background-color: #f5e4c9;
+
+
+}
+
+footer {
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    background-color: #3e2723;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.footer_content {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5vw;
+
+}
+
+.footer_content .C_1 a,
+.footer_content .C_2 a,
+.footer_content .C_3 a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.25s ease-out;
+
+
+
+}
+
+.footer_content .C_1 a:hover,
+.footer_content .C_2 a:hover,
+.footer_content .C_3 a:hover {
+    color: #c97e56;
+    transform: scale(1.15);
+
+}
+
+
+.footer_content .C_1,
+.footer_content .C_2,
+.footer_content .C_3 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 380;
+    font-size: 1rem;
+    align-self: center;
+    padding: 1.8vh;
+    text-wrap: nowrap;
+
+
+
+}
+
+.Sign_box {
+    height: max-content;
+    width: 30vw;
+
+}
+
+.Sign_box img {
+    align-self: flex-end;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+@media all and (min-width:1000px) and (max-width:1300px) {
+
+    .footer_content .C_1,
+    .footer_content .C_2,
+    .footer_content .C_3 {
+
+        font-size: 0.77rem;
+
+    }
+
+
+}
+
+@media all and (min-width:700px) and (max-width:1000px) {
+
+    .footer_content .C_1,
+    .footer_content .C_2,
+    .footer_content .C_3 {
+
+        font-size: 0.70rem;
+
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+}
+
+@media all and (min-width:450px) and (max-width:700px) {
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .footer_content .C_1,
+    .footer_content .C_2,
+    .footer_content .C_3 {
+
+        font-size: 0.6rem;
+
+    }
+
+    .Sign_box {
+        height: 16vh;
+
+    }
+
+}
+
+@media all and (min-width:320px) and (max-width:390px) {
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .footer_content .C_1,
+    .footer_content .C_2,
+    .footer_content .C_3 {
+
+        font-size: 0.45rem;
+
+    }
+
+    .Sign_box {
+        height: 12vh;
+
+    }
+
+
+}
+
+@media all and (min-width:390px) and (max-width:450px) {
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .footer_content .C_1,
+    .footer_content .C_2,
+    .footer_content .C_3 {
+
+        font-size: 0.55rem;
+
+    }
+
+    .Sign_box {
+        height: 12vh;
+
+    }
+
+
+}
+
+
+@media all and (min-width:320px) and (max-width:475px) {
+    #La {
+        height: 40vh;
+        width: 36vw;
+
+    }
+
+}
+
+@media all and (min-width:475px) and (max-width:690px) {
+    #La {
+        height: 52vh;
+        width: 30vw;
+
+    }
+
+}
+
+@media all and (min-width:695px) and (max-width:890px) {
+    #La {
+        height: 57vh;
+        width: 28vw;
+
+    }
+
+}
+
+@media all and (min-width:890px) and (max-width:1200px) {
+
+    #La {
+        height: 79vh;
+        width: 26vw;
+    }
+
+
+}
