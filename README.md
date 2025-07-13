@@ -45,16 +45,10 @@ Welcome to **BrewByte Café** — a fully responsive, animated coffee ordering e
 
 ---
 
-## 📂 How to Run Locally
+# 🌐 Live Demo
 
-1. Clone or download this repository.
-2. Open the `Index.html` file in your browser.
-
-```bash
-git clone https://github.com/Abhijeet2409/brewbyte-cafe.git
-cd brewbyte-cafe
-open Index.html  # or double-click to open in browser
-```
+🚀 Visit the live site here:  
+👉 [https://abhijeet2409.github.io/brewbyte-cafe/](https://abhijeet2409.github.io/brewbyte-cafe/)
 
 ---
 
