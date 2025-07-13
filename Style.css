@@ -499,7 +499,7 @@ main .Card_contianer img {
     width: 4rem;
 }
 
-@media all and (min-width:700px) and (max-width:1200px) {
+@media all and (min-width:700px) and (max-width:1400px) {
     main .Card_contianer {
 
         position: absolute;
