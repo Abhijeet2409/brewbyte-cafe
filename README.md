@@ -51,7 +51,7 @@ Welcome to **BrewByte Café** — a fully responsive, animated coffee ordering e
 2. Open the `Index.html` file in your browser.
 
 ```bash
-git clone https://github.com/yourusername/brewbyte-cafe.git
+git clone https://github.com/Abhijeet2409/brewbyte-cafe.git
 cd brewbyte-cafe
 open Index.html  # or double-click to open in browser
 ```
@@ -61,7 +61,7 @@ open Index.html  # or double-click to open in browser
 ## 🙋‍♂️ Author
 
 **Abhijeet Saharan**  
-🔗 [GitHub](https://github.com/yourusername) • [LinkedIn](https://www.linkedin.com/in/abhijeet-saharan-02ab37312/)
+🔗 [GitHub](https://github.com/Abhijeet2409) • [LinkedIn](https://www.linkedin.com/in/abhijeet-saharan-02ab37312/)
 ⚡ Personal Signature: `⚡💥` proudly displayed at the end of the site . 
 
    
