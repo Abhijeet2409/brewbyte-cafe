@@ -24,7 +24,7 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
 
 - 🧭 **Anchor Links** – Mimics navigation to pages like "App Store" or "About".
 
-- 🧠 **Pure JavaScript** – Drives order confirmation, preparation, and supports multiple coffee types.
+- 🧠 **Pure JavaScript** – Drives order confirmation, preparation, and supports **multiple coffee cups**.
 
 - ⚡ **Personal Developer Signature** – A unique touch displayed proudly at the bottom.  
 
