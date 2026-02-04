@@ -6,37 +6,37 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
 ---
 
 
-## 🚀 Features
+##  Features
 
-- 🎥 **Background Video** – Plays on the landing page to set the mood.
+-  **Background Video** – Plays on the landing page to set the mood.
 
-- 🎵 **Cafe-style Background Music** – *Triggers at just the right moment* 😉
+-  **Cafe-style Background Music** – *Triggers at just the right moment* 😉
 
-- 🖱️ **Interactive Coffee Cups** – Click to place your order!  
+-  **Interactive Coffee Cups** – Click to place your order!  
 
-- 📱 **Responsive Design** – Scales beautifully from **320px to 1440px** width.
+-  **Responsive Design** – Scales beautifully from **320px to 1440px** width.
 
-- 💻 **Optimized for Devices** –  While the layout was optimized for a target height of **600px**, some height-specific scenarios may show slight visual quirks — something learned and noted during post-build testing.
+-  **Optimized for Devices** –  While the layout was optimized for a target height of **600px**, some height-specific scenarios may show slight visual quirks — something learned and noted during post-build testing.
 
-- ✨ **Custom Animations** – Hover effects, transitions, and more.
+-  **Custom Animations** – Hover effects, transitions, and more.
 
-- 🔄 **Dynamic Coffee Orders** – Simulated using Promises and `async/await`.
+-  **Dynamic Coffee Orders** – Simulated using Promises and `async/await`.
 
-- 🧭 **Anchor Links** – Mimics navigation to pages like "App Store" or "About".
+-  **Anchor Links** – Mimics navigation to pages like "App Store" or "About".
 
-- 🧠 **Pure JavaScript** – Drives order confirmation, preparation, and supports **multiple coffee cups**.
+-  **Pure JavaScript** – Drives order confirmation, preparation, and supports **multiple coffee cups**.
 
-- ⚡ **Personal Developer Signature** – A unique touch displayed proudly at the bottom.  
+-  **Personal Developer Signature** – A unique touch displayed proudly at the bottom.  
 
 
 ---
 
-## 📸 Demo 
+##  Demo 
 
 > 🔗 ![Responsive Demo](Assets/Photos/Responsive-Demo.gif)
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3 (Media Queries, Animations, Transitions, design)
@@ -44,29 +44,29 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
 
 ---
 
-# 🌐 Live Demo
+#  Live Demo
 
-🚀 Visit the live site here:  
+ Visit the live site here:  
 👉 [https://abhijeet2409.github.io/brewbyte-cafe/](https://abhijeet2409.github.io/brewbyte-cafe/)
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Abhijeet Saharan**  
 🔗 [GitHub](https://github.com/Abhijeet2409) • [LinkedIn](https://www.linkedin.com/in/abhijeet-saharan-02ab37312/)
-⚡ Personal Signature: `⚡💥` proudly displayed at the end of the site . 
+⚡ Personal Signature:  proudly displayed at the end of the site . 
 
    
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License. Feel free to use and modify for learning or personal projects.
 
 ---
 
-## ✨ Developer Note
+##  Developer Note
 
 > I started this project as a fun side-build. The core idea behind this café simulation gradually took shape as I solved JavaScript problems.
 
