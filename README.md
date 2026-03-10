@@ -55,8 +55,7 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
 
 **Abhijeet Saharan**  
 🔗 [GitHub](https://github.com/Abhijeet2409) • [LinkedIn](https://www.linkedin.com/in/abhijeet-saharan-02ab37312/)
-⚡ Personal Signature:  proudly displayed at the end of the site . 
-
+⚡Proudly Signed at the end of the experience. 
    
 ---
 
