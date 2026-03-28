@@ -59,11 +59,7 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
    
 ---
 
-##  License
 
-This project is licensed under the MIT License. Feel free to use and modify for learning or personal projects.
-
----
 
 ##  Developer Note
 
