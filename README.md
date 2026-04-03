@@ -26,7 +26,7 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
 
 -  **Pure JavaScript** – Drives order confirmation, preparation, and supports **multiple coffee cups**.
 
--  **Personal Developer Signature** – A unique touch displayed proudly at the bottom.  
+-  **Personal Developer Touch** – A unique touch displayed proudly at the bottom.  
 
 
 ---
