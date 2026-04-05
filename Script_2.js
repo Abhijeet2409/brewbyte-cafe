@@ -82,6 +82,7 @@ async function getcoffee_La() {
 }
 
 let A = document.querySelector(".Order .order_ex");
+let B = document.querySelector(".coffee_place");
 A.style.whiteSpace = "pre-line";
 
 let chosen = ""
@@ -128,8 +129,8 @@ async function main_H() {
   let _clicked = await _click_H();
   let cup = document.querySelector("#H");
   cup.style.display = "none";
-  A.textContent += _clicked;
-  let B = document.querySelector(".coffee_place");
+  A.textContent = _clicked;
+ 
   B.textContent = "☕Coffee Claimed!"
 
   let C = document.querySelector(".reset")
@@ -158,8 +159,7 @@ async function main_Co() {
   let _clicked = await _click_Co();
   let cup_Cold = document.querySelector("#Co");
   cup_Cold.style.display = "none";
-  A.textContent += _clicked;
-  let B = document.querySelector(".coffee_place");
+  A.textContent = _clicked;
   B.textContent = "☕Coffee Claimed!"
 
   let C = document.querySelector(".reset")
@@ -188,8 +188,7 @@ async function main_La() {
   let _clicked = await _click_La();
   let cup_La = document.querySelector("#La");
   cup_La.style.display = "none";
-  A.textContent += _clicked;
-  let B = document.querySelector(".coffee_place");
+  A.textContent = _clicked;
   B.textContent = "☕Coffee Claimed!"
 
   let C = document.querySelector(".reset")

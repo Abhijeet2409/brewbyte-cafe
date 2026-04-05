@@ -710,7 +710,7 @@ section .order_ex {
     margin-left: 6vw;
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
-    ;
+    
     font-weight: 390;
     font-style: normal;
 
@@ -723,6 +723,8 @@ section .order_ex {
     color: #A0522D;
 
     backdrop-filter: blur(1.2px);
+     /* visibility: hidden; */
+    
 
 
 }
@@ -744,6 +746,8 @@ section .coffee_place {
     color: #5f2b13;
     backdrop-filter: blur(0.9px);
     padding: 2vh 2vw;
+    /* visibility: hidden; */
+    
 }
 
 
@@ -814,12 +818,13 @@ section .coffee_place {
     text-wrap: nowrap;
     display: none;
     transition: all 0.3s ease-out;
+    animation: U_d 0.72s ease infinite alternate-reverse;
 
 }
 
-.reset:hover {
 
-    transform: scale(1.09);
+
+.reset:hover {
 
     background-color: rgba(255, 248, 220, 0.801);
 
