@@ -22,8 +22,6 @@ Welcome to **BrewByte Café** — A Responsive (Width-Focused), animated coffee 
 
 -  **Dynamic Coffee Orders** – Simulated using Promises and `async/await`.
 
--  **Anchor Links** – Mimics navigation to pages like "App Store" or "About".
-
 -  **Pure JavaScript** – Drives order confirmation, preparation, and supports **multiple coffee cups**.
 
 -  **Personal Developer Touch** – A unique touch displayed proudly at the bottom.  
